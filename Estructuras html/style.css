@@ -1,0 +1,64 @@
+
+
+
+
+#logo{
+   
+    
+    background-image:   url(Img/logo.png);
+    background-repeat: "repeat-x";
+    background-size: 300px;
+    padding: 100%;
+    border: black 1px solid;
+    border-top: black 3px solid;
+  
+   
+  
+    
+    
+    
+    
+   
+    
+}
+
+#borde1{
+
+    border: dotted 2px blue;
+}
+#borde2{
+
+    border: dashed 2px red;
+}
+#borde3{
+
+    border: solid 2px yellow;
+}
+#borde4{
+
+    border: double 2px green;
+}
+
+#borde5{
+
+    border: groove 2px rgb(165, 57, 165);
+}
+#borde6{
+
+    border: ridge 2px rgba(255, 187, 0, 0.849);
+}
+
+#borde7{
+
+    border: inset 2px purple;
+}
+#borde8{
+
+    border: outset 2px gray;
+}
+
+.cuerpo{
+    padding: 50px;
+}
+
+
