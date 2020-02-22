@@ -1,0 +1,23 @@
+
+
+
+
+body > div{
+   
+    
+    background-image:   url(Img/logo.png);
+    background-repeat: "repeat-x";
+    background-size: 300px;
+    padding: 100%;
+    border: black 1px solid;
+    border-top: black 3px solid;
+  
+   
+  
+    
+    
+    
+    
+   
+    
+}
