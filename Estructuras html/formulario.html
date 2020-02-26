@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formato de Hoja de vida</title>
+  <link rel="stylesheet" href="estilosadiocionales.css">
+  <!--código de boostrap way-->
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+
+
+  <!--Código pro de boostrap: -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+</head>
+
+
+<body>
+
+  <!--esta es la navegación-->
+  <nav class="navbar navbar-light bg-light ">
+    <a class="navbar-brand" href="#"> FORMATO DE HOJA DE VIDA </a>
+  </nav>
+  <div class="container">
+    <!--esta es la aplicación-->
+
+    <div>
+
+      <div>
+        <!--Tarjeta 1: Datos personales-->
+        <div class="card" id="card-css">
+          <div class="card-header" id="titulo1">
+            <h4>DATOS PERSONALES</h4>
+
+
+          </div>
+          <div class="row">
+            <!--primera columna, datos personales-->
+
+            <div class="col-md-3">
+
+              <form id="product-form" class="card-body">
+                  
+                <div class="form-group">
+
+                  <div class="cajasdetexto">
+                    <input type="text" id="first-apellido" placeholder="Primer Apellido" class="form-control">
+                  </div>
+                </div>
+                <div class="cajasdetexto">
+                  <input type="text" id="second-apellido" placeholder="Segundo Apellido" class="form-control"
+                    class="margin-top: 10px">
+                </div>
+
+                <div class="cajasdetexto">
+                  <input type="text" id="nombre-completo" placeholder="Nombre Completo" class="form-control">
+
+                </div>
+                <!--código para intérvalo de fechas: value="2020" min="1900" max="2090"-->
+
+                <div class="radio">
+                  <!-- Material unchecked -->
+                  <h7>Tipo de Identifiación</h7>
+
+                  <div class="form-check">
+
+                    <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                    <label class="form-check-label" for="materialUnchecked">C.C</label>
+                  </div>
+
+                  <!-- Material checked -->
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                      checked>
+                    <label class="form-check-label" for="materialChecked">C.E</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                      checked>
+                    <label class="form-check-label" for="materialChecked">PAS.</label>
+                  </div>
+
+
+
+                </div>
+
+                <!--Id-->
+                <div class="cajasdetexto">
+                  <input type="number" id="id" placeholder="Número de Identifiación" class="form-control">
+
+                </div>
+
+                <div class="cajasdetexto">
+                  <input type="email" id="email" placeholder="Correo ELectrónico" class="form-control">
+
+                </div>
+
+
+
+
+
+
+                <!--Este es el botón
+                              <div class="cajasdetexto">
+                                <div class="botonsaved">
+                                  <input type="submit" value="Save" class="btn btn-primary btn-block">
+                
+                
+                
+                                </div>
+                
+                              </div>
+                              -->
+
+
+
+
+
+              </form>
+
+
+
+
+
+
+
+
+            </div>
+
+            <!--segunda columna - datos personale-->
+
+            <div class="col-md-3" id="colun2">
+
+              <form class="card-body">
+                <div class="form-group">
+
+                  <!--Genero-->
+                  <div class="radio">
+                    <h7>Género:</h7>
+
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                      <label class="form-check-label" for="materialUnchecked">M</label>
+                    </div>
+
+                    <!-- Material checked -->
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                        checked>
+                      <label class="form-check-label" for="materialChecked">F</label>
+                    </div>
+
+                  </div>
+
+                  <!--Nacionalidad-->
+
+                  <div class="radio">
+                    <h7>Nacionalidad:</h7>
+
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                      <label class="form-check-label" for="materialUnchecked">COL.</label>
+                    </div>
+
+                    <!-- Material checked -->
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                        checked>
+                      <label class="form-check-label" for="materialChecked">Extrangero</label>
+                    </div>
+
+
+                  </div>
+                  <div class="cajasdetexto">
+                    <input type="text" id="pais" placeholder="País" class="form-control">
+
+                  </div>
+                  <!--Libreta militar-->
+
+                  <div class="radio">
+                    <h7>Libreta Militar:</h7>
+
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                      <label class="form-check-label" for="materialUnchecked">Primera clase</label>
+                    </div>
+
+                    <!-- Material checked -->
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="materialChecked" name="materialExampleRadios"
+                        checked>
+                      <label class="form-check-label" for="materialChecked">Segunda clase</label>
+                    </div>
+
+
+                  </div>
+                  <div class="cajasdetexto">
+                    <input type="number" id="numero-libreta" placeholder="número de libreta" class="form-control">
+
+                  </div>
+                  <div class="cajasdetexto">
+                    <input type="number" id="distrito-militar" placeholder="Distrito militar" class="form-control">
+
+                  </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+              </form>
+
+
+
+
+
+
+
+
+            </div>
+
+            <!--Tercera columna - datos personales-->
+
+            <div class="col-md-3">
+              <form id="product-form" class="card-body">
+                <div class="form-group">
+                  <div class="cajas">
+
+
+
+
+                    <h6>Fecha de y lugar de nacimiento</h6>
+                    <input type="date" name="fecha-nacimiento" step="1" max="2002-01-01" min="1958-01-01"
+                      value="2013-0">
+
+                    <!--   <div class="cajasdetexto2">
+                      <input type="text" name="departamento" placeholder="Departamento" class="form-control">
+                    </div>
+                    <div class="cajasdetexto2">
+                        <input type="text" name="municipio" placeholder="municipio" class="form-control">
+  
+                      </div>
+                    
+                    <div class="cajasdetexto2">
+                        <input id="telefono" type="text" name="telefono" placeholder="teléfono" class="form-control">
+                    </div>-->
+
+
+
+                    <div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input name="departamento-nacimiento" type="text" placeholder="Departamento" required
+                            class="form-control">
+                          <input name="municipio-nacimiento" type="text" placeholder="Municipio" required
+                            class="form-control">
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                  </div>
+
+
+                  <div class="cajas">
+                    <h6>Dirección de correspondencia</h6>
+
+
+                    <div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input name="pais-nacimiento" id="pais-correspondencia" type="text" placeholder="País"
+                            required class="form-control">
+                          <input name="departamento-correspondencia" id="departamento-correspondencia" type="text"
+                            placeholder="Departamento" required class="form-control">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input name="municipio-correspondencia" id="municipio-correspondencia" type="text"
+                            placeholder="Municipio" required class="form-control">
+                          <input name="telefono" type="number" placeholder="Teléfono" required class="form-control">
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+              </form>
+
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!--Tarjeta 2: Formación académica-->
+        <div class="card" id="card-css2">
+          <div class="card-header " id="titulo2">
+            <h4>FORMACIÓN ACADÉMICA</h4>
+
+
+          </div>
+
+          <div class="row">
+            <div class="card-body" id="body2">
+              <table id="tabla-educacion">
+                <!--Fila 1-->
+                <tr id="fila1">
+                  <td>
+                    <div>
+                      <h6>EDUCACIÓN BÁSICA Y MEDIA</h6>
+                      <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A
+                        LOS
+                        GRADOS 6o. A 11o. DE
+                        EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA</p>
+                    </div>
+                    <table id="niveles-educacion">
+                      <div class="card-group" class="egt">
+
+                        <tr id="titulo-tabla">
+                          <th colspan=11>Educación Básica</th>
+                          <th colspan=1>Título Obtenido</th>
+                        </tr>
+
+                        <tr>
+                          <td class="celda" colspan="5">Primaria </td>
+                          <td class="celda" colspan="4">Secundaria </td>
+                          <td class="celda" colspan="2"> Media</td>
+                          <td class="celda" colspan="6"> Fecha de grado</td>
+
+                        </tr>
+                        <tr>
+                          <td class="celda">1o.</td>
+                          <td class="celda">2o.</td>
+                          <td class="celda">3o.</td>
+                          <td class="celda">4o.</td>
+                          <td class="celda">5o.</td>
+
+                          <td class="celda">6o.</td>
+                          <td class="celda">7o.</td>
+                          <td class="celda">8o.</td>
+                          <td class="celda">9o.</td>
+
+                          <td class="celda">10o.</td>
+                          <td class="celda">11o.</td>
+
+                          <td>
+                            <input type="date" name="fecha-nacimiento" step="1" max="2002-01-01" min="1958-01-01"
+                              value="2013-0">
+                          </td>
+                        </tr>
+                    </table>
+
+
+
+              
+
+                </td>
+
+              </tr>
+              <!--Fila 2-->
+
+              <tr>
+                <td>
+                  <div class="row">
+                    <div class="card-body" id="body3">
+                      <div>
+                        <h6>EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</h6>
+                        <p style="text-align: left;">DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD
+                          ACADÉMICA ESCRIBA:</p>
+                      </div>
+                      <p class="p-formacion-academica" >
+                        <b>TC</b> (TÉCNICA), <b>TL</b>(TECNOLÓGICA), <B>TE</B> (TECNOLÓGICA ESPECIALIZADA), <B>UN</B>
+                        (UNIVERSITARIA),
+                      </p>
+                      <p class="p-formacion-academica" >
+                        <b>ES</b> (ESPECIALIZACIÓN), <b>MG</b> (MAESTRÍA O MAGISTER), <b>DOC</b> (DOCTORADO O PHD)
+                      </p>
+                      <p class="p-formacion-academica">
+                        RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).
+                      </p>
+                      </div>
+                      </div>
+
+                      </td>
+
+              </tr>
+              <!--Fila 3-->
+              <tr>
+                <td>
+                  <div class="row">
+                    <div class="card-body">
+                      <table id="tabla-estudios">
+                        
+                          <TR>
+                          <TH COLSPAN="2">
+                          Celda de dos columnas
+                          </TH>
+                          </TR>
+                          <TR>
+                          <TD ROWSPAN="2">
+                          Celda de dos filas
+                          </TD>
+                          <TD>
+                          Fila2,Columna2asdasda
+                          </TD>
+                          </TR>
+                          <TR>
+                          <TD>
+                          Fila3,Columna2
+                          </TD>
+                          </TR>
+                          
+                      
+                      </table>
+                    </div>
+
+                  </div>
+                </td>
+
+
+              </tr>
+
+
+
+
+
+                      </table>
+
+
+              
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+  
+
+
+  
+
+
+
+  <div id="product-list" class="col-md-8"></div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+  </div>
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
