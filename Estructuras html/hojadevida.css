@@ -4,11 +4,17 @@ body{
     
     }
     
-    #seccion{
+    #todo{
     
         border: 1px solid gray;
         padding-bottom: 5px;
-        box-shadow: 12345234234234px, 1px, 1px, 1px black;
+        background-color: white;
+        
+    }
+
+    #seccion{
+        background-color: white;
+        border: 1px solid black;
     }
     
     
