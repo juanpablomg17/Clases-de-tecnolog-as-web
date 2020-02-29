@@ -1,0 +1,96 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    }
+    
+    #seccion{
+    
+        border: 1px solid gray;
+        padding-bottom: 5px;
+        box-shadow: 12345234234234px, 1px, 1px, 1px black;
+    }
+    
+    
+    /*ENCABEZADO */
+    .titulo{
+    border-radius: 5px;
+    background: dodgerblue;
+    padding: 2px;
+    
+    }
+    
+    img{
+        width: 57%;
+        padding-left: 80px;
+        padding-top: 21px;
+        
+    }
+    
+    .encabezado{
+    padding-top: 35px;
+    text-align: center;
+    padding-right: 70px;
+    
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    #entidadreceptora{
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+    
+    }
+    
+    /* 1. datos personales*/
+    #titulo1{
+    
+    background-color: lightskyblue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-top: 17px;
+        
+    }
+    
+    #datos{
+    width: 80%;
+    border: hidden;
+    border-bottom-style: groove;
+    border-color: lightskyblue;
+    }
+
+    #todo{
+        background-image:   url(Img/escudo-de-colombia.jpg);
+        background-repeat: "repeat-x";
+        background-size: 300px;
+    
+    }
+    
+    
+    
+    #datoscol{
+        padding: 25px;
+    }
+    
+    /*FORMACION ACADEMICA*/
+    
+    .tablafacademic{
+    padding: 25px;
+    
+    }
+    
+    td{
+        padding: 15px;
+    }
+    
+    .table {
+        border-collapse: collapse;
+        border-radius: 1em;
+        overflow: hidden;
+      
+      }

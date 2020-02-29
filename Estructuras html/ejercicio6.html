@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hojadevida.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container" id="todo">
+        <div class="titulo">
+            <div class="col-md-12">
+                <h1 style="text-align: center;">FORMULARIO DE HOJA DE VIDA</h1>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="escudo.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                    <div class=encabezado>
+                        <h4>FORMATO ÚNICO</h3>
+                            <h2>HOJA DE VIDA</h2>
+                            <h5>Persona Natural</h5>
+                            <h6>(Leyes 190 de 1995, 489 y 443 de 1998)</h6>
+                    </div>
+                </div>
+                <div id="entidadreceptora" class="col-md-4">
+                    <h4>ENTIDAD RECEPTORA</h4>
+                    <input type="text" style="width: 80%;">
+                </div>
+            </div>
+        </div>
+
+    <section id="seccion">
+       
+            <div id="titulo1" class="col-md-3">
+
+                <h5>DATOS PERSONALES</h2>
+            </div>
+        <div>
+            <div class="row">
+                <div style="padding-left: 45px;" id="datoscol" class="col-md-4">
+                    <h6>PRIMER APELLIDO</h6>
+                    <input type="text" id="datos"></input>
+                </div>
+                <div id="datoscol" class="col-md-4">
+                    <h6 style="padding-left: 1px">SEGUNDO APELLIDO (O DE CASADA)</h6>
+                    <input type="text" id="datos"></input>
+                </div>
+                <div id="datoscol" class="col-md-4">
+                    <h6>NOMBRES</h6>
+                    <input type="text" id="datos"></input>
+                </div>
+            </div>
+        </div>
+   
+            <div  style="padding-left: 20px;" class="row">
+                <div class="col-md-5">
+                    <h6 style="padding-left: 8px">DOCUMENTO DE IDENTIFICACIÓN</h6>
+                    <div style="padding: 8px;">
+                        <input style="margin-left: 9px;" type="radio" value="C.C" name="documento"> C.C
+                        <input style="margin-left: 25px;" type="radio" value="C.E" name="documento"> C.E
+
+                        <input style="margin-left: 25px;" type="radio" value="PAS" name="documento"> PAS
+                        <label style="padding-left: 25px;">No.</label>
+
+                        <input style="width: 40%; border: hidden; border-bottom-style: groove; border-color: lightskyblue;">
+                            </input>
+
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <h6 style="padding-left: 8px">SEXO</h6>
+                    <div style="padding: 8px;">
+                        <input style="margin-left: 15px;" type="radio" name="sexo" value="F"> F
+                        <input style="margin-left: 25px;" type="radio" name="sexo" value="M"> M
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 style="padding-left: 8px">NACIONALIDAD</h6>
+                    <div style="padding: 8px;">
+                        <input style="margin-left: 15px;" type="radio" value="COL " name="nacionalidad"> COL
+                        <input style="margin-left: 25px;" type="radio" value="ext" name="nacionalidad"> EXTRANJERO
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h6 style="padding-left: 8px">PAIS</h6>
+                    <div style="padding: 8px; padding-right: 18px;">
+                        <input type="text" style="  width: 80%;;border: hidden; border-bottom-style: groove; border-color: lightskyblue;"
+                            ></input>
+                    </div>
+                </div>
+            </div>
+            <div  style="padding-left: 20px;" class="row">
+                <div class="col-md-5">
+                    <h6 style="padding-left: 25px;padding-left: 8px; padding-top: 15px;">LIBRETA MILITAR</h6>
+                    <div style="padding: 8px; padding-top: 17px;">
+                        <input style="margin-left: 45px;" type="radio" value="pc" name="libreta"> PRIMERA CLASE
+                        <input style="margin-left: 35px;" type="radio" value="sc" name="libreta"> SEGUNDA CLASE
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div style="padding-top: 56px;">
+                        <label style="">NUMERO</label>
+                        <input type="number" style="width: 30%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;">
+                        </input>
+                        <label style="padding-left: 25px;">DM</label>
+                        <input type="number" style="width: 30%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;">
+                        </input>
+                    </div>
+                </div>
+            </div>
+            <div  style="padding-left: 20px;" class="row">
+                <div class="col-md-5">
+                    <div>
+                        <h6 style="padding-left: 8px; padding-top: 15px;"> FECHA Y LUGAR DE NACIMIENTO</h6>
+                        <label style="padding-left: 35px;">FECHA</label> <input
+                            style="margin-top: 8px; margin-left: 45px;margin-right: 130px;" type="date">
+                        <label style="padding-left: 35px;padding-right: 81px">PAÍS</label>
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                        <BR>
+                        <label style="padding-left: 35px;padding-right: 72px">DPTO</label>
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                        <BR>
+                        <label style="padding-left: 35px;padding-right: 32px">MUNICIPIO</label>
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                    </div>
+
+                </div>
+                <div class="col-md-7">
+                    <div>
+                        <h6 style="padding-left: 8px; padding-top: 15px;"> DIRECCIÓN Y CORRESPONDENCIA</h6>
+                        <input type="text" style="margin-left: 8px ;padding-left: 25px; width: 92%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                        <div style="padding-top: 15px;">
+                        <label style="padding-left: 10px;padding-right: 1px">PAÍS</label>
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+
+                        <label style="padding-left: 9px;">DPTO</label> 
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                        <BR>
+                        <label style="padding-left: 10px;padding-right: 4px">MUNICIPIO</label>
+         <input type="text" style="padding-left: 25px; width: 76.6%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                        <label style="padding-left: 10px;padding-right: 1px">TELEFONO</label>
+                        <input type="text" style="padding-left: 25px; width: 32.5%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+
+                        <label style="padding-left: 9px;">EMAIL</label>
+                        <input type="text" style="padding-left: 25px; width: 35.1%;  border: hidden; border-bottom-style: groove; border-color: lightskyblue;"></input>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+        <!--    SEGUNDO BLOQUE   -->
+        <section style="margin-top: 10px;" id="seccion">
+      
+            <div id="titulo1" class="col-md-3">
+                <h5>FORMACIÓN ACADEMICA</h2>
+            </div>
+            <div class="row">
+                <div id="datoscol" class="col-md-12">
+                    <h6 style="padding-left: 15px;">EDUCACIÓN BÁSICA Y MEDIA</h6>
+                    <label style="padding-left: 15px;">MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN
+                        A LOS GRADOS 6o. A 11o. DE EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</label>
+                    <div style="padding-left: 100px; padding-top: 15px; padding-right: 50px;">
+                        <table class="tablafacademica" border="1">
+                            <tr>
+                                <td style="text-align: center;" colspan="11">
+                                    EDUCACIÓN BÁSICA
+                                </td>
+                                <td colspan="6">TÍTULO OBTENIDO</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;" colspan="5">PRIMARIA</td>
+                                <td style="text-align: center;" colspan="4">SECUNDARIA</td>
+                                <td style="text-align: center;" colspan="2">MEDIA</td>
+                                <td colspan="6">FECHA DE GRADO</td>
+                            </tr>
+                            <tr>
+                                <td>1o.</td>
+                                <td>2o.</td>
+                                <td>3o.</td>
+                                <td>4o.</td>
+                                <td>5o.</td>
+                                <td>6o.</td>
+                                <td>7o.</td>
+                                <td>8o.</td>
+                                <td>9o.</td>
+                                <td>10.</td>
+                                <td>11.</td>
+                                <td> <label style="padding-right: 25px;">MES</label> <input type="number">
+                                    <BR>
+                                    <label style="padding-right: 22px;">AÑO</label> <input type="number"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+                <section id="seccion">
+         
+                <div class="row">
+                    <div id="datoscol" class="col-md-12">
+                        <h6 style="padding-left: 15px;">EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</h6>
+
+                        <label style="padding-left: 15px;">DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA
+                            ESCRIBA:</label> <br>
+                        <div style="padding-left: 55px;">
+                            <label style="padding-right: 25px;"><b>TC</b> (TÉCNICA)</label> <label  style="padding-right: 25px;"><b>TL</b> (TECNOLÓGICA)</label> <label><b>TE</b> (TECNOLÓGICA
+                                ESPECIALIZADA)</label> <label>UN (UNIVERSITARIA)</label><br>
+                            <label  style="padding-right: 25px;"><b>ES</b> (ESPECIALIZACIÓN)</label><label  style="padding-right: 25px;"><b>MG</b> (MAESTRÍA O MAGISTER)</label> <label><b>DOC</b>>
+                                (DOCTORADO O PHD)</label> <br>
+                        </div>
+                        <label style="padding-left: 15px;">RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN
+                            UNA LEY):</label>
+
+<table style="text-align: center;" border="1">
+    <tr>
+        <td rowspan="2">MODALIDAD ACADEMICA</td>
+        <td rowspan="2">NO° SEMESTRES APROBADOS</td>
+        <TD colspan="2">GRADUADOS</TD>
+        <TD rowspan="2">NOMBRE DE LOS ESTUDIOS O TITULOS OBTENIDOS</TD>
+        <TD colspan="5">TERMINACIÓN</TD>
+        <TD rowspan="2">NO° DE TARJETA PROFESIONAL</TD>
+    </tr>
+    <tr>
+        <td>SI</td>
+        <td>NO</td>
+        <td>MES</td>
+        <td colspan="4">AÑO</td>
+    </tr>
+    <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+    <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+    <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+    <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+    <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+</table>
+
+                    </div>
+                </div>
+          
+        
+            </div>
+        </div>
+
+    </section>
+    <section id="seccion">
+
+   <div class="row">
+
+<div id="datoscol" class="col-md-12">
+    <h6 style="padding-left: 15px;">EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</h6>
+    <label style="padding-left: 15px;">ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, REGULAR <b>(R)</b>, BIEN <b>(B)</b> O MUY BIEN <b>(MB)</b></label>
+    <div style="padding-left: 100px; padding-top: 15px; padding-right: 50px;">
+        <table style="text-align: center;" border="1">
+            <tr>
+                <td style="padding-left: 180px; padding-right: 180px;" rowspan="2">IDIOMA</td>
+                <td colspan="3">LO HABLA</td>
+                <td colspan="3">LO LEE</td>
+                <td colspan="3">LO ESCRIBE</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td>B</td>
+                <td>MB</td>
+                <td>R</td>
+                <td>B</td>
+                <td>MB</td>
+                <td>R</td>
+                <td>B</td>
+                <td>MB</td>
+            </tr>
+            <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+            <tr> <td></td> <td></td><td></td> <td></td>  <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>     </tr>
+        </table>
+    </div>
+</div>
+   
+
+   </div>
+
+
+
+    </section>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
