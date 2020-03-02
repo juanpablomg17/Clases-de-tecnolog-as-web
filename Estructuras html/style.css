@@ -2,7 +2,7 @@
 
 
 
-body{
+#logo{
    
     
     background-image:   url(Img/logo.png);
@@ -102,7 +102,7 @@ body{
 }
 
 .caja-principal{
-    border: solid 3.8px rgb(135, 49, 216);
+    border: solid 3.8px #8E0ABC;
     width: 190px;
     height: 195px;
     margin-top: 20px;
@@ -111,14 +111,14 @@ body{
     
 }
 #caja-amarilla{
-    background-color: yellow;
+    background-color: #CDFF00;
     width: 100px;
     height: 100px;
     z-index: 1;
 }
 #caja-morada{
-    border: 2.5px solid purple;
-    background: violet;
+    border: 2.5px solid #610063;
+    background: #CC00FF;
     height: 100px;
     width: 130px;
    
@@ -133,8 +133,8 @@ body{
 #caja-azul{
     width: 130px;
     height: 100px;
-    background-color: blue;
-    border: solid 2.5px white;
+    background-color: #100FCF;
+    border: solid 2.5px #F5F1BF;
     z-index: 2;
     position: absolute;
     margin-left: 50px;
@@ -145,8 +145,8 @@ body{
 #caja-agua{
     height: 100px;
     width: 120px;
-    background-color: aqua;
-    border: 2.5px solid fuchsia;
+    background-color:#01FFCB;
+    border: 2.5px solid #E50E99;
     position: absolute;
     margin-left: 50px;
     left: 590px; 
